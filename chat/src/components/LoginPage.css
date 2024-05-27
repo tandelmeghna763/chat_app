@@ -1,0 +1,35 @@
+.container {
+    margin: 50px auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(212, 199, 201)
+}
+
+input[type='text'] {
+    width: 320px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 350px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(192, 163, 167);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(176, 151, 154);
+}
